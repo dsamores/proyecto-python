@@ -1,7 +1,7 @@
 
 def generar_primos(num_primos):
     if num_primos == 0:
-        return []
+        return [0]
     primos = []
     num = 2
     while len(primos) < num_primos:
